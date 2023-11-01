@@ -8,14 +8,21 @@ The purpose of this analysis is to classify loans as 'healthy' or 'high-risk' ba
 ### The Data
 There are 77,536 rows of data. The columns include the following:
 
- 0   loan_size          The size of the loan      
- 1   interest_rate      The interest rate of the loan in percentage
- 2   borrower_income    The borrower's annual income
- 3   debt_to_income     The borrower's debt-to-income ratio
- 4   num_of_accounts    The number of bank accounts the borrower has
- 5   derogatory_marks   The number of derogatory marks the borrower has received
- 6   total_debt         The borrower's total value of pre-existing debt
- 7   loan_status        The status of the loan, 'healthy' or 'high-risk'
+ - loan_size:          The size of the loan 
+     
+ - interest_rate:      The interest rate of the loan in percentage
+
+ - borrower_income:    The borrower's annual income
+
+ - debt_to_income:     The borrower's debt-to-income ratio
+
+ - num_of_accounts:    The number of bank accounts the borrower has
+
+ - derogatory_marks:   The number of derogatory marks the borrower has received
+
+ - total_debt:         The borrower's total value of pre-existing debt
+
+ - loan_status:        The status of the loan, 'healthy' or 'high-risk'
 
 Our model aims to predict 'loan_status'
 
